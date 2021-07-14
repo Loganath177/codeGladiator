@@ -42,7 +42,7 @@ main()
       case T_EQUALS:
         num = pop(&stack);
         //sprintf(buf_out,"= %d ",num);
-        printf("%d ",num);          // prints the number popped
+        printf("%d ",num);          // prints the  popped output value
         push(&stack,num);
         break;
     }
